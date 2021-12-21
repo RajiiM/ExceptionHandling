@@ -1,0 +1,27 @@
+EXCEPTION:
+
+    Exception – விதிவிலக்கு
+    Exceptions in Java are any abnormal, unwanted events that may occur at runtime.
+    Exception terminated the program execution.
+    i.e., Exception is an object. This exception object disturbs the normal flow of the program at run time.
+    When an exception occurs we get a system generated an error message.
+    Exceptions can be handled in Java.
+    Therefore we can provide a meaningful message to the user rather than the system generated an error message, which not understandable to a user.
+    NOTE:
+        Whenever an exception occurs, corresponding exception object will be thrown.
+        If this object is thrown, it should be throwable one.
+        Exception object must be subclass of Throwable class or Exception Class.
+
+WHY AN EXCEPTION OCCURS?
+
+    Wrong data entered by the user.
+    Network Connection problem.
+    Hardware problem.
+    Opening a file which is not existing in program.
+    Server down problem. 
+
+EXCEPTION HANDLING:
+
+    It maintains the normal flow of the program.
+    Suppose in our program there are many statements and an exception occurs in midway then the statements after the exception will not execute and the program will terminate and we get system generated error message. Which are not understandable to a user.
+    By exception handling mechanism all the statements in our program will execute and do not break the normal flow of the program and it generated a user-friendly message rather than the system generated an error message. 
